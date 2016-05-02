@@ -28,6 +28,7 @@ var port = process.env.PORT || 3030;
 // mongoose.connect(db.url);
 
 // parse application/vnd.api+json as json
+
 app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
