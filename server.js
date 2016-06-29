@@ -10,7 +10,7 @@ var User  = require('./app/models/uModel.js');
 mongoose.connect('mongodb://localhost/Artisanal');
 
 // PORT------------------------------------------
-var port = process.env.PORT || 3030;
+var port = process.env.PORT || 5000;
 
 // connect to our mongoDB database
 // mongoose.connect(db.url);
