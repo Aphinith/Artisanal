@@ -8,7 +8,7 @@ var Business  = require('./app/models/bModel.js');
 var User  = require('./app/models/uModel.js');
 
 // mongoose.connect('mongodb://localhost/Artisanal');
-mongoose.connect('mongodb://aphinith:mLab159@ds013941.mlab.com:13941/testdatabase999')
+mongoose.connect('mongodb://aphinith:mLab123@ds011495.mlab.com:11495/artisanal')
 // PORT------------------------------------------
 var port = process.env.PORT || 5000;
 
