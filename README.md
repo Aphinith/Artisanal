@@ -24,8 +24,9 @@
 
 ## Requirements
 
-- Node 5.10.0
-- MongoDB 3.2.4
+- Node
+- Express
+- MongoDB
 
 For instructions on installing mongoDB, click [here](https://docs.mongodb.org/manual/installation/)
 
