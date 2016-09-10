@@ -2,6 +2,10 @@
   "name": "artisanal",
   "version": "0.0.0",
   "description": "THE hub for local food Artisans and food enthusiasts.",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower cache clean && bower install"
+  },
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.4.5",
